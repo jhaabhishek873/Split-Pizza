@@ -1,0 +1,38 @@
+
+body #navbar ul li a{
+    padding: 2px 2px;
+    font-size: 6px;
+    margin: 2px 3px;
+}
+body #services .box img{
+    overflow: hidden;
+    width: 85%;
+}
+body #services .box h2{
+   font-size: 16px;
+}
+body #services .box p{
+   font-size: 13px;
+}
+body #clients-section ul{
+    margin-top: 29%;
+}
+body #contact-section .form-group textarea {
+    padding: 12px 5px;
+    font-size: 6px;
+
+}
+
+ body #contact-section .form-group label {
+    font-weight: bold;
+    font-size: 10px;
+}
+body .form-group input {
+
+   
+    padding: 4px 6px;
+    font-size: 6px;
+}
+body footer{
+    margin-top: 21%;
+}

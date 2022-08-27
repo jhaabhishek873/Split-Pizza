@@ -1,0 +1,135 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    line-height: 6px;
+}
+body #navbar::before{
+    width: 113vw;
+    height: 50%;
+}
+body #navbar ul li a{
+    font-size: 9px;
+    padding: 6px 13px;
+   
+}
+body #navbar #logo img{
+    height: 30px;
+    width: 30px;
+}
+
+
+/* Home */
+body #home{
+    height: 278px;
+}
+body #home::before{
+    height: 340px;
+    width: 109vw;
+}
+body #home p{
+    font-size: 8px;
+}
+body .btn{
+    margin-top: 14px;
+    padding: 0px 5px;
+    font-size: 13px;
+}
+
+/* Services */
+#services-section{
+    margin-top: 37px;
+}
+#services{
+    flex-direction: column;
+}
+body #services .box{
+    margin: 3px 2px;
+    padding: 10px 10px;
+}
+body #services .box p{
+    font-size: 17px;
+}
+body .h-secondary{
+    font-size: 26px;
+
+}
+/* Clients */
+body #clients-section{
+    height: 70px;
+}
+body #clients-section::before{
+    height: 55%;
+    width:107%;
+}
+.clients-item ul{
+    flex-wrap: wrap;
+    margin-top: 45%;
+}
+body .clients-item ul li{
+   margin: 0px;
+   padding: 5px 6px;
+}
+
+body .clients-item .fa{
+    width: 33px;
+    font-size: 34px;
+    padding: 8px 6px;
+}
+
+@media only screen and(max-width:400px)
+{
+body #contact-section{
+    margin-top: 420px;
+}
+}
+
+/* Contact-section */
+body #contact-section{
+ margin: 0px;
+ margin-top: 295px;
+}
+body #contact-section::before{
+ height:373px;
+ width: 107%;
+ margin-top: 35px;
+}
+body #contact-box{
+    font-size: 0px;
+    margin-top: 2%;
+    padding: 0px 2px;
+}
+body #contact-box textarea{
+    padding: 4px 7px;
+    font-size: 16px;
+}
+body .form-group input{
+    padding: 2px 2px;
+    font-size: 13px;
+    margin: 8px;
+}
+body #contact-box form label{
+    font-size: 13px;
+}
+body #contact-box button{
+    padding: 5px;
+    margin: 7px 7px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+/* footer */
+body footer{
+    font-size: 15px;
+padding: 4px 3px;
+width: 105%;
+margin-top: 16px;
+}
+body .h-primary{
+    font-size: 14px;
+}
+
+
